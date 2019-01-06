@@ -495,7 +495,7 @@ footer .primary a {
 	overflow: hidden;
 }
 #hero {
-	background-image: asset-data-url('header.png');
+	background-image: url('images/header.png');
 	background-repeat: no-repeat;
 	background-size: 100% 250px;
 	height: 250px;
@@ -640,10 +640,10 @@ footer .primary a {
 	font-size:25px;
 }
 .whisper .half:last-of-type {
-background-image: asset-data-url('kathy_bracelets.JPG');
+background-image:  url('kathy_bracelets.JPG');
 }
 .whisper .half:first-of-type {
-background-image: asset-data-url('book-bracelet.png');
+background-image:  url('book-bracelet.png');
 }
 .whisper .half {
 	height: 300px;
@@ -664,7 +664,7 @@ background-image: asset-data-url('book-bracelet.png');
 }
 .container {
 	background-color: #f3f3f3;
-	background-image: asset-data-url('content.png');
+	background-image:  url('content.png');
 	background-repeat: no-repeat;
 	margin-top: -60px;
 	padding: 60px 0 40px ;
@@ -674,7 +674,7 @@ background-image: asset-data-url('book-bracelet.png');
 	margin-top: 0;
 }
 .container.mug {
-	background-image: asset-data-url('mug.png');
+	background-image:  url('mug.png');
 	background-position: center;
 }
 .words h3 {
@@ -743,7 +743,7 @@ background-image: asset-data-url('book-bracelet.png');
 }
 .book .left {
 	background-color: #e6e4e0;
-	background-image: asset-data-url('book-left.png');
+	background-image:  url('book-left.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	float: none;
@@ -769,7 +769,7 @@ background-image: asset-data-url('book-bracelet.png');
 }
 
 .review .wrap-no {
-	background-image: asset-data-url('Reviews.png');
+	background-image:  url('Reviews.png');
 	background-repeat: no-repeat;
 	background-size: cover;
     margin: 40px auto;
@@ -863,7 +863,7 @@ background-image: asset-data-url('book-bracelet.png');
 }
 
 .kathy .wrap {
-	background-image: asset-data-url('kathy-back.jpg');
+	background-image:  url('kathy-back.jpg');
 	background-repeat: no-repeat;
 	position: relative;
 	padding:30px 10px;
@@ -915,7 +915,7 @@ background-image: asset-data-url('book-bracelet.png');
     padding: 20px;
     margin: 40px auto 0px;
     background-color:#f3f3f3;
-    background-image: asset-data-url('newsletter.png'); 
+    background-image:  url('newsletter.png'); 
     background-repeat: no-repeat;
 	background-position: center top;
     background-size: cover;
@@ -1074,7 +1074,7 @@ _________________________*/
 	padding: 15px 0 0;
 }
 .about .hero .wrap-no{
-	background-image: asset-data-url('about_kathy_2.png');
+	background-image:  url('about_kathy_2.png');
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1164,7 +1164,7 @@ _________________________*/
 	content: '';
     height: 70px;
     width: 90px;
-    background-image: asset-data-url('feather.png');
+    background-image:  url('feather.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -1174,7 +1174,7 @@ _________________________*/
 	content: '';
     height: 15px;
     width: 15px;
-    background-image: asset-data-url('arrow.png');
+    background-image:  url('arrow.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -1190,7 +1190,7 @@ _______________*/
 	margin-bottom: 40px;
 }
 .thsh .hero{
-	background-image: asset-data-url('header-book.png');
+	background-image:  url('header-book.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:0;
@@ -1254,7 +1254,7 @@ _______________*/
 }
 /* Contact */
 .contact .hero .wrap{
-	background-image: asset-data-url('kathy-speaking-2.jpg');
+	background-image:  url('kathy-speaking-2.jpg');
 	background-repeat: no-repeat;
 	background-size: auto 106%;
 	background-position: -196px -10px;
@@ -1398,7 +1398,7 @@ _____________*/
 -----------------*/
 
 .blog .hero .wrap-no {
-	background-image: asset-data-url('kathy-back.jpg');
+	background-image:  url('kathy-back.jpg');
 	background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -1564,7 +1564,7 @@ _____________*/
 }
 /*Speaking*/
 .speaking .hero .wrap{
-	background-image: asset-data-url("kathy-speaking-2.jpg");
+	background-image:  url("kathy-speaking-2.jpg");
 	background-repeat: no-repeat;
 	height: 250px;
 	background-position: center;
@@ -1858,13 +1858,13 @@ blockquote:before {
 }
 
 .readersguide:before {
-	content: asset-data-url("bookicon.png");
+	content:  url("bookicon.png");
 	position: absolute;
 	bottom: 0;
 }
 
 .readersguide:after {
-	content: asset-data-url("arrowright.png");
+	content:  url("arrowright.png");
 	position: absolute;
 	bottom: 0.1px;
 	right: 5px;
@@ -2012,7 +2012,7 @@ blockquote:before {
 ********************/
 
 .about-you-background {
-/*	background-image: asset-data-url('Kathy_AboutYou_bkgnd.png');
+/*	background-image:  url('Kathy_AboutYou_bkgnd.png');
 	background-repeat: no-repeat;
 	bottom:0;
 	background-size:cover;
@@ -2062,14 +2062,14 @@ blockquote:before {
 }
 
 .jumpstart-text.lgt-blue-box::before {
-	content: asset-data-url('jumpstart_logo.png');
+	content:  url('jumpstart_logo.png');
 	position: absolute;
 	bottom: 24px;
     left: 25px;
 }
 
 .jumpstart-text.lgt-blue-box::after {
-	content: asset-data-url('arrowright.png');
+	content:  url('arrowright.png');
 	position: absolute;
 	bottom: 0.1px;
     right: 5px;
@@ -2080,7 +2080,7 @@ blockquote:before {
 
 .jumbo-tron {
 	text-align: center;
-	background-image: asset-data-url('aboutYouHeader.png');
+	background-image:  url('aboutYouHeader.png');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -2090,7 +2090,7 @@ blockquote:before {
 
 .about-you-portrait {
 	text-align: center;
-	background-image: asset-data-url('AboutYou-Portrait.png');
+	background-image:  url('AboutYou-Portrait.png');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -2739,14 +2739,14 @@ Reader Stories
 	}
 
 	.readersguide::before {
-		content: asset-data-url("bookicon.png");
+		content:  url("bookicon.png");
 		position: absolute;
 		bottom: -5px;
     	left: 0px;
 	}
 
 	.readersguide::after {
-		content: asset-data-url("arrowright.png");
+		content:  url("arrowright.png");
 		position: absolute;
 		right: 2px;
     	bottom: -2.9px;
@@ -3284,14 +3284,14 @@ ABOUT YOU
 	}
 
 	.readersguide::before {
-		content: asset-data-url("bookicon.png");
+		content:  url("bookicon.png");
 		position: absolute;
 	    bottom: -6px;
 	    left: -12px;
 	}
 
 	.readersguide::after {
-		content: asset-data-url("arrowright.png");
+		content:  url("arrowright.png");
 		position: absolute;
 		right: -10px;
    		bottom: -6.9px;
