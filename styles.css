@@ -1105,6 +1105,12 @@ _________________________*/
 .whisper span {
 	font-size: 16px;
 }
+.small-im .solomon-video {
+	width:33%;
+}
+.header-moore.small-im .bluebox {
+	width:67%;
+}
 }
 @media (min-width:850px){
 .whisper span {
