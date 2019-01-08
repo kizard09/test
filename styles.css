@@ -1099,6 +1099,16 @@ _________________________*/
 	margin: auto;
 	width:300px;
 }
+.small-im.header-moore{
+    width: 100%;
+    display: block;
+}
+.coleman .wrap-no {
+	padding-top:0;
+}
+.solomon-video.mobile {
+	display:none;
+}
 @media (min-width:768px){
 .contact .col.col-1 {
 	margin-top:40px
@@ -1131,7 +1141,17 @@ _________________________*/
 .small-im .solomon-video:before{
 	border:none !important;
 }
-
+.small-im .soloman-video .videoSol {
+	position: absolute;
+	top: 0; 
+	height: 100%;
+}
+.solomon-video.mobile {
+	display:table-cell
+}
+.small-im.header-moore {
+	display: table;
+}
 }
 @media (min-width:850px){
 .whisper span {
