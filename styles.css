@@ -1094,6 +1094,11 @@ _________________________*/
 .contact .col.col-2 {
 	margin:40px 0;
 }
+.coleman .bluebox img {
+	display: block;
+	margin: auto;
+	width:300px;
+}
 @media (min-width:768px){
 .contact .col.col-1 {
 	margin-top:40px
@@ -1110,6 +1115,14 @@ _________________________*/
 }
 .header-moore.small-im .bluebox {
 	width:67%;
+}
+.coleman .bluebox {
+	position: relative;
+}
+.coleman .bluebox img {
+	position: absolute;
+	right:0;
+	width:100px;
 }
 }
 @media (min-width:850px){
