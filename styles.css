@@ -1111,10 +1111,14 @@ _________________________*/
 	font-size: 16px;
 }
 .small-im .solomon-video {
-	width:33%;
+	width:33.3%;
+	height:100%;
+}
+.small-im .solomon-video img {
+	display: block
 }
 .header-moore.small-im .bluebox {
-	width:67%;
+	width:33.3%;
 }
 .coleman .bluebox {
 	position: relative;
@@ -1126,10 +1130,6 @@ _________________________*/
 }
 .small-im .solomon-video:before{
 	border:none !important;
-}
-.small-im img {
-	height:100%;
-    position: relative;
 }
 
 }
