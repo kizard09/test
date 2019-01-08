@@ -1109,6 +1109,9 @@ _________________________*/
 .solomon-video.mobile {
 	display:none;
 }
+.small-im a.button.white:hover {
+	color: #487497;
+}
 @media (min-width:768px){
 .contact .col.col-1 {
 	margin-top:40px
