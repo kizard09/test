@@ -1147,7 +1147,7 @@ _________________________*/
 	height: 100%;
 }
 .solomon-video.mobile {
-	display:table-cell
+	display:table-cell;
 }
 .small-im.header-moore {
 	display: table;
