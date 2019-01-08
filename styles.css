@@ -1124,6 +1124,10 @@ _________________________*/
 	right:0;
 	width:100px;
 }
+.small-im .solomon-video:before{
+	border:none;
+}
+.small-im .
 }
 @media (min-width:850px){
 .whisper span {
