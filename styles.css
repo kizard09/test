@@ -1118,16 +1118,16 @@ _________________________*/
 }
 .coleman .bluebox {
 	position: relative;
-}
-.coleman .bluebox img {
-	position: absolute;
-	right:0;
-	width:100px;
+	width:33%;
 }
 .small-im .solomon-video:before{
-	border:none;
+	border:none !important;
 }
-.small-im .
+.small-im img {
+	height:100%;
+    position: relative;
+}
+
 }
 @media (min-width:850px){
 .whisper span {
