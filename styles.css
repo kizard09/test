@@ -369,7 +369,6 @@ nav .mobile {
 .secondary .right a.button {
 	width: 70%;
 	border-color: #fff;
-	line-height: 40px;
 }
 .secondary .left {
     position: absolute;
@@ -2349,7 +2348,7 @@ Reader Stories
 		top:15px;
 		right:10px;
 		border-color: #ccc;
-		width: 120px;
+		width: 140px;
 		padding-left: 0;
 		text-align: center;
 	}
