@@ -387,12 +387,36 @@ nav .mobile {
     bottom: 104px;
     width: 200px;
 }
+.secondary .right a{
+	line-height: 35px;
+}
 .primary a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font: bold 14px/28px'futura-pt', sans-serif;
 	color: #fff;
 	display: block;
+}
+.drop-nav {
+	height: 0;
+	overflow: hidden;
+	transition: height .3s ease;
+}
+.drop-nav.open-nav {
+	height: 100%;
+	transition: height .3s ease;
+}
+.drop-nav li a {
+	line-height: 14px;
+	font-size: 12px;
+	color: #71b4d5;
+}
+.drop-nav li {
+	padding:0 0 5px;
+	list-style: none
+}
+.drop-nav li:before {
+	display: none;
 }
 footer {
 	background:#487497;
@@ -1112,6 +1136,39 @@ _________________________*/
 	color: #487497;
 }
 @media (min-width:768px){
+	.primary .wrap div {
+		display: table-cell;
+	    letter-spacing: 0px;
+	    text-align: center;
+	    color: #487497;
+	    width: 10%;
+	    line-height: 76px;
+	    position: relative;
+	}
+	nav.scroll .primary .drop-nav a {
+		line-height: 12px;
+	}
+	nav.scroll .primary .drop-nav li:first-of-type a{
+		padding-top: 10px;
+	}
+	.primary .wrap div .drop-nav {
+		background: #fff;
+		position: absolute;
+		width:170%;
+		padding: 0 15px;
+		left: 30px;
+	}
+	.drop-nav.open-nav {
+		height: 70px;
+	}
+
+	.primary .wrap div .drop-nav a{
+		padding-bottom: 10px;
+		text-align: left;
+	}
+	.primary .wrap div .drop-nav a:hover{
+		color: #487497;
+	}
 .contact .col.col-1 {
 	margin-top:40px
 } 
@@ -2230,8 +2287,16 @@ Reader Stories
 	padding: 5px 10px;
 }
 
+/* Goodnight Mr Coleman
+_________________________*/
+.gnight .header-moore {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 
 @media (min-width:768px){
+
 	.mobile {
 		display: none;
 	}
@@ -2699,6 +2764,16 @@ Reader Stories
 	.popup .right {
 		margin-top:100px;
 	}
+
+	.gnight .intro div{
+		width:75%;
+		float: left;
+		padding-right: 20px;
+	}
+	.gnight .intro img{
+		display: block;
+	}
+
 }
 
 @media (min-width: 820px){
@@ -3092,7 +3167,9 @@ ABOUT YOU
 	}
 }
 @media screen and (min-width:1000px){
-
+.gnight .intro {
+		margin: 0 -20px;
+	}
 	.order-links div {
 	    width: 27%;
 	    float: none;

@@ -74,4 +74,23 @@ $('.owl-item.active.center').on('click', function (){
 
 	$(".fancybox").fancybox();
 
+	$('#drop-nav').on('mouseover', function(e){
+		e.preventDefault();
+		$('.drop-nav').addClass('open-nav');
+	});
+	$('.drop-nav').on('mouseleave', function(){
+		$(this).removeClass('open-nav')
+	});
+	$('.secondary').on('mouseover', function(e){
+		e.preventDefault();
+		$('.drop-nav').removeClass('open-nav');
+	});
+	$('.primary .hide-nav').on('mouseover', function(e){
+		e.preventDefault();
+		$('.drop-nav').removeClass('open-nav');
+	});
+	
+
+
+
 });
