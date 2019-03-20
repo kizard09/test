@@ -1741,8 +1741,19 @@ Columnn Styles
 .quote-block h3 {
 	margin: 35px;
 }
-
-
+.thsh .quote-block h6{
+	margin-bottom: 0;
+}
+.thsh .button.pop-let {
+	margin-bottom: 50px;
+    width: 140px;
+    display: block;
+    padding-left: 0; 
+	line-height: 37px;
+}
+.thsh .button.pop-let:before, .thsh .button.pop-let:after {
+	display: none;
+}
 blockquote {
 	display: inline;
 	quotes: "\201C""\201C""\201C""201C";
@@ -3018,7 +3029,6 @@ MOORE PLACE
 
 	.moore-quotes .quote-block {
 		margin: 25px;
-		padding-top: 25px;
 	}
 
 	.moore-quotes {
@@ -3090,9 +3100,7 @@ ABOUT YOU
 	    display: inline-block;
 	    height:60px;
 	}
-	.thsh .button {
-		margin-left: 25px;
-	}
+	
 	.order-links a {
 		display: block;
 	    position: absolute;
