@@ -2293,10 +2293,31 @@ _________________________*/
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-
+.g-img {
+	width: 100%;
+}
+.g-img img {
+	width: 100%;	
+}
 
 @media (min-width:768px){
-
+	.gnight .header-moore {
+		margin-top:0;
+	}
+	.g-news {
+		display: table;
+		width: 100% !important;
+		padding:0;
+	}
+	.g-news a {
+		display: table-cell;
+		width: 50%;
+		vertical-align: middle;
+	}
+	.g-img	{
+		vertical-align: top !important;
+		padding: 5px 20px 0 0;
+	}
 	.mobile {
 		display: none;
 	}
